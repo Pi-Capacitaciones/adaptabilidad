@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    padding: 16px;
+}
+
+.bienvenida {
+    padding: 16px;
+    margin: 16px 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: min(1200px, 100%);
+
+    min-height: 350px;
+}
+
+img {
+    width: 100%;
+}
+
+.modelo {
+    padding: 16px;
+
+}
+
+.elementos {
+    padding: 16px;
+
+}
+
+article {
+    margin: 16px;
+    padding: 16px;
+    border: 1px solid var(--color-azul-acento);
+}
+
+/* .contenedor {
+    display: flex;
+} */

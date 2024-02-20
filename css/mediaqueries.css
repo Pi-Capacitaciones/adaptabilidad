@@ -1,0 +1,21 @@
+.mediaqueries {
+    padding: 16px;
+    margin: 16px;
+
+    font-size: 16px;
+
+    min-height: 55vh; /* vh viewport height, vw viewport width */
+
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+
+}
+
+@media screen and (min-width:560px) {
+
+    .mediaqueries {
+        min-height: 30vh;
+        font-size: 24px;
+    }
+
+}
