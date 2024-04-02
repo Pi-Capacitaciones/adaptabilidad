@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+    --color-azul-800: hsl(208, 100%, 3%);
+    --color-azul-800-trans: hsla(208, 100%, 3%, 75%);
+    --color-azul-600: hsl(208, 25%, 17%);
+    --color-azul-400: hsl(208, 25%, 37%);
+    --color-base: hsl(55, 55%, 91%);
+    --color-azul-acento: hsl(208, 100%, 68%);
+
+    --h1-secciones: clamp(22px, 5vw , 36px);
+    --h1-splash: clamp(24px, 5vw , 64px);
+    --p-secciones: clamp(16px, 2vw , 20px);
+}
+
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    background-color: var(--color-azul-800);
+    color: var(--color-base);
+    line-height: 1.5;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+section {
+    background-color: var(--color-azul-600);
+}
+
+a:link,
+a:visited {
+    display: inline-block;
+    color: var(--color-base);
+    text-decoration: none;
+    background-color: var(--color-azul-800);
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+a:hover,
+a:active {
+    color: var(--color-azul-800);
+    background-color: var(--color-azul-acento);
+}
